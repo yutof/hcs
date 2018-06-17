@@ -1,0 +1,5 @@
+task :default => [:Simulate]
+
+task :Simulate do
+  ruby "DeckSimulator.rb"
+end
